@@ -1,0 +1,1 @@
+const e="https://koderrex.com",t=["Kush Kumar","Kush Kumar","Web Development","Software Engineer","Open Source"],s="I'm a developer aiming to build things that spark joy. I build fun stuff on the web, and sometimes write about it.",o="Kush Kumar - Software Developer",a=`${e}/images/site-preview.png`;export{s as d,a as i,t as k,e as s,o as t};
