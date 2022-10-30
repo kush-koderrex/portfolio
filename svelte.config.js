@@ -39,7 +39,7 @@ const config = {
 	extensions: extensions,
 
 	kit: {
-		adapter: adapter( envPrefix: { port: process.env.PORT } }),
+		adapter: adapter(),
 		prerender: {
 			default: true
 		},
