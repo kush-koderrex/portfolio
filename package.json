@@ -3,8 +3,8 @@
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev --host",
-		"build": "rm -rf build && vite build && touch build/.nojekyll && mv build/404/index.html build/404.html",
-		"deploy": "npm run build && npx gh-pages -d build -t true",
+		"build": "vite build",
+		"deploy": "npm run build",
 		"preview": "vite preview",
 		"start": "node build/index.js",
 		"lint": "prettier --ignore-path .gitignore  --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
